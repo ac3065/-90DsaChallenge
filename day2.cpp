@@ -121,7 +121,7 @@ cout<<endl;
 //   ***
 //    **
 //     *
-//? PYRAMID STAR PATTERN
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -224,13 +224,6 @@ cout<<endl;
   }
   return 0;
 }
-// // enter n
-// // 5
-// // *****
-// // ****
-// // ***
-// // **
-// // *
 
 // enter n
 // 5
@@ -378,7 +371,6 @@ int main(){
 // 7 8 9 10
 // 11 12 13 14 15 
 
-
 #include<iostream>
 using namespace std;
 int main(){
@@ -470,3 +462,23 @@ int main(){
 //    *  *
 //    *  *
 // ****  *
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//   int n;
+//   cout<<"enter the value of n"<<endl;
+//   cin>>n;
+//   int r = 1;
+// for(int i = 1; i<=n;  i++){
+//   for (int j = 1; j <= i; j++) {
+//     cout << r;
+//     r++;
+//   }
+//   for (int k = 1; k <= n - i ; k++){
+//       cout<<" ";
+//   }
+//     cout<<endl;
+// }
+// return 0;
+// }
